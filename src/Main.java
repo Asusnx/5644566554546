@@ -68,7 +68,7 @@ public class Main {
         }
         return array;
     }
-//    ~~~7 uzduotis
+//    ~~~7 uzduotiss
 
 
 
