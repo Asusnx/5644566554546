@@ -91,6 +91,19 @@ public class Main {
             int sum1 = Array2(arr);
             return (double) sum1 / arr.length;
 
+//            9 uzduotis
+
+
+
+    }
+
+    public static void rectangle(int eiluciu, int stulpeliu) {
+        for (int i = 0; i < eiluciu; i++) {
+            for (int j = 0; j < stulpeliu; j++) {
+                System.out.print(" *");
+            }
+            System.out.println();
+        }
     }
 
 
