@@ -27,6 +27,12 @@ public class Main {
 //        7 uzduotis
         System.out.println("7 uzduotis");
 
+        int suma = Array2(arr);
+        System.out.println("7 uzduoties suma " + suma);
+
+//        8 uzduotis
+
+        System.out.println("8 uzduoties vidurkis: " + vidurkis);
 
     }
 
@@ -69,6 +75,24 @@ public class Main {
         return array;
     }
 //    ~~~7 uzduotiss
+
+    public static int Array2(int[] arr) {
+        int suma = 0;
+        for (int i = 0; i < arr.length; i++) {
+            suma += arr[i];
+        }
+        return suma;
+    }
+
+        public static double vidurkis(int[] arr) {
+            int sum = Array2(arr);
+            return (double) sum / arr.length;
+
+    }
+
+
+
+
 
 
 
