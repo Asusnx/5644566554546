@@ -25,7 +25,6 @@ public class Main {
         int[] arr = sestas(5, 10, 15);
         skaiciai(arr);
 //        7 uzduotis
-        System.out.println("7 uzduotis");
 
         int suma = Array2(arr);
         System.out.println("7 uzduoties suma " + suma);
