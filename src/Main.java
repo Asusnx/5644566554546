@@ -35,7 +35,19 @@ public class Main {
 
         System.out.println("8 uzduoties vidurkis: " + vidurkis);
 
+//        9 uzduotis
+
+        rectangle(6, 4);
+
+//        10 uzduotis
+
+        String sakinys = "siandien labai grazi diena";
+        skaiciavimas(sakiniai);
+
+
+
     }
+
 
     public static void suma(int x, int y) {
         int suma2 = x + y;
@@ -87,14 +99,11 @@ public class Main {
 
 //    ~8 uzudotis
 
-        public static double vidurkis(int[] arr) {
-            int sum1 = Array2(arr);
-            return (double) sum1 / arr.length;
+    public static double vidurkis(int[] arr) {
+        int sum1 = Array2(arr);
+        return (double) sum1 / arr.length;
 
 //            9 uzduotis
-
-
-
     }
 
     public static void rectangle(int eiluciu, int stulpeliu) {
@@ -105,6 +114,13 @@ public class Main {
             System.out.println();
         }
     }
+
+//    10 uzduotis
+
+
+
+
+
 
 
 
