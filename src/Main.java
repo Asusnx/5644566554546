@@ -141,7 +141,7 @@ public class Main {
         int spaces = (sakinys.replaceAll("[^ ]","").length());
         int symbols = (sakinys.length() -  spaces);
 
-        System.out.println("10,5 uzduotis~~~~ " +"tarpu "+ spaces  + " raidziu " + symbols );
+        System.out.println("10,55 uzduotis~~~~ " +"tarpu "+ spaces  + " raidziu " + symbols );
 
 
 
