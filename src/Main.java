@@ -32,6 +32,8 @@ public class Main {
 
 //        8 uzduotis
 
+        double vidurkis = vidurkis(arr);
+
         System.out.println("8 uzduoties vidurkis: " + vidurkis);
 
     }
@@ -84,9 +86,11 @@ public class Main {
         return suma;
     }
 
-        public static double vidurkis(int[] arr) {
-            int sum = Array2(arr);
-            return (double) sum / arr.length;
+//    ~8 uzudotis
+
+        public static double vidurkis(int[]arr) {
+            int sum1 = Array2(arr);
+            return (double) sum1 / arr.length;
 
     }
 
