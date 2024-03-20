@@ -140,8 +140,9 @@ public class Main {
     public static void skaiciavimasB(String sakinys) {
         int spaces = (sakinys.replaceAll("[^ ]","").length());
         int symbols = (sakinys.length() -  spaces);
-
-        System.out.println("10,55 uzduotis~~~~ " +"tarpu "+ spaces  + " raidziu " + symbols );
+      //  symbols = sakinys.replace(" ","").length();
+     //   spaces = sakinys.length() - symbols;
+        System.out.println("10,5 uzduotis~~~~ " +"tarpu "+ spaces  + " raidziu " + symbols );
 
 
 
