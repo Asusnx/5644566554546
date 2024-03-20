@@ -42,13 +42,13 @@ public class Main {
 
 //        10 uzduotis
 
-//        String sakinys = "siandien labai grazi diena";
+        String sakinys = "siandien labai grazi diena";
         skaiciavimas("siandien labai grazi diena");
 
 //        ~11uzduotis
 
-        "siandien labai grazi diena"
-
+//        "siandien labai grazi diena".contains([ ])
+        skaiciavimasB(sakinys);
 
 
     }
@@ -138,18 +138,15 @@ public class Main {
     }
 
     public static void skaiciavimasB(String sakinys) {
-        int symbolsCount = 0;
-        int spacesCount = 0;
-        for (int i = 0; i < sakinys.length(); i++) {
-            char simbolis = sakinys.charAt(i);
-            if (simbolis != ' ') {
-                symbolsCount++;
-            } else {
-                spacesCount++;
-            }
-        }
-        System.out.println("10 uzduotis~~~ " + symbolsCount + " raides " + spacesCount + " tarpai");
+        int spaces = (sakinys.replaceAll("[^ ]","").length());
+        int symbols = (sakinys.length() -  spaces);
+
+        System.out.println("10,5 uzduotis~~~~ " +"tarpu "+ spaces  + " raidziu " + symbols );
+
+
+
     }
+
 
 
 
