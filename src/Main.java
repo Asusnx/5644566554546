@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Rezultatas: " + rezultatas);
 //        sesta uzduotis
         System.out.println("sesta uzduotis");
-        int[] arr = sestas(5, 10, 15);
+        int[] arr = sestas(5, 10, 5);
         skaiciai(arr);
 //        7 uzduotis
 
