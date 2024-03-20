@@ -42,7 +42,7 @@ public class Main {
 //        10 uzduotis
 
         String sakinys = "siandien labai grazi diena";
-        skaiciavimas(sakiniai);
+        skaiciavimas(sakinys);
 
 
 
@@ -116,6 +116,20 @@ public class Main {
     }
 
 //    10 uzduotis
+
+
+    public static void  skaiciavimas(String sakinys){
+        int wordcount = 0;
+        int spacecount = 0;
+        for (int i = 0; i <sakinys.length() ; i++) {
+            char simbolis = sakinys.charAt(i);
+            if (simbolis != ' ') {
+                wordcount++;
+            }
+            else spacecount++;
+        }
+        System.out.println("is viso " + wordcount + " raides ir " + spacecount + " tarpai");
+    }
 
 
 
