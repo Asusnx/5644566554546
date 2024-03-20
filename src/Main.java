@@ -1,4 +1,4 @@
-public class Main {
+`public class Main {
     public static void main(String[] args) {
 //        pirma uzduotis
         int a = 8;
@@ -88,7 +88,7 @@ public class Main {
 
 //    ~8 uzudotis
 
-        public static double vidurkis(int[]arr) {
+        public static double vidurkis(int[] arr) {
             int sum1 = Array2(arr);
             return (double) sum1 / arr.length;
 
@@ -106,3 +106,4 @@ public class Main {
 
 
 
+`
