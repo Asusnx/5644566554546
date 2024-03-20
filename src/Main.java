@@ -37,12 +37,17 @@ public class Main {
 
 //        9 uzduotis
 
+        System.out.println("9 uzduotis");
         rectangle(6, 4);
 
 //        10 uzduotis
 
-        String sakinys = "siandien labai grazi diena";
-        skaiciavimas(sakinys);
+//        String sakinys = "siandien labai grazi diena";
+        skaiciavimas("siandien labai grazi diena");
+
+//        ~11uzduotis
+
+        "siandien labai grazi diena"
 
 
 
@@ -118,18 +123,38 @@ public class Main {
 //    10 uzduotis
 
 
-    public static void  skaiciavimas(String sakinys){
-        int wordcount = 0;
-        int spacecount = 0;
-        for (int i = 0; i <sakinys.length() ; i++) {
+    public static void skaiciavimas(String sakinys) {
+        int symbolsCount = 0;
+        int spacesCount = 0;
+        for (int i = 0; i < sakinys.length(); i++) {
             char simbolis = sakinys.charAt(i);
             if (simbolis != ' ') {
-                wordcount++;
+                symbolsCount++;
+            } else {
+                spacesCount++;
             }
-            else spacecount++;
         }
-        System.out.println("is viso " + wordcount + " raides ir " + spacecount + " tarpai");
+        System.out.println("10 uzduotis~~~ " + symbolsCount + " raides " + spacesCount + " tarpai");
     }
+
+    public static void skaiciavimasB(String sakinys) {
+        int symbolsCount = 0;
+        int spacesCount = 0;
+        for (int i = 0; i < sakinys.length(); i++) {
+            char simbolis = sakinys.charAt(i);
+            if (simbolis != ' ') {
+                symbolsCount++;
+            } else {
+                spacesCount++;
+            }
+        }
+        System.out.println("10 uzduotis~~~ " + symbolsCount + " raides " + spacesCount + " tarpai");
+    }
+
+
+
+
+
 
 
 
