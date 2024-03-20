@@ -1,4 +1,4 @@
-`public class Main {
+public class Main {
     public static void main(String[] args) {
 //        pirma uzduotis
         int a = 8;
@@ -106,4 +106,3 @@
 
 
 
-`
